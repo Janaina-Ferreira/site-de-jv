@@ -1,10 +1,14 @@
 
+@media screen and (min-width: 750px){
+    header > .capa{
+        width: 40%;
+    }
+}
 
-
-@media screen and (min-width: 750px) {
+@media screen and (max-width: 550px) {
  
     header > .capa{
-        width: 80%;
+        width: 90%;
     }
     
 
