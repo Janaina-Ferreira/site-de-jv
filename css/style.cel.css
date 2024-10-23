@@ -32,3 +32,11 @@
 
 }
 
+.fotos {
+    transition: transform 0.5s;
+  }
+  
+  .fotos:hover {
+    transform: scale(1.2);
+  }
+
