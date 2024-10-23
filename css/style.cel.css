@@ -40,3 +40,13 @@
     transform: scale(1.2);
   }
 
+  a{
+    text-decoration: none;
+    color: rgb(92, 9, 170);
+  }
+ footer{
+    padding: 50px;
+   text-align: center;
+    background-color: #A982B9;
+   
+ }
