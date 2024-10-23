@@ -1,21 +1,8 @@
-
 @charset "UTF-8";
 
-    .capa {
-        width: 40%; /* Por padrão, para telas grandes */
-        height: auto;
-    }
+.capa{
+    width: 90%;
+}
 
-    /* Para tablets (largura entre 600px e 1024px) */
-    @media (max-width: 1024px) {
-        .capa {
-            width: 65%;
-        }
-    }
 
-    /* Para smartphones (largura até 600px) */
-    @media (max-width: 600px) {
-        .capa {
-            width: 80%;
-        }
-    }
+
