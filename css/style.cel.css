@@ -1,54 +1,21 @@
 
-@media screen and (min-width: 750px){
-    header > .capa{
-        width: 40%;
-    }
-}
+@charset "UTF-8";
 
-@media screen and (max-width: 550px) {
- 
-    header > .capa{
-        width: 90%;
-    }
-    
-
-
-
-
-
-        
-    .container {
-        max-width: 1200px;
-        margin: auto;
-        padding: 20px;
-    }
-    .link-card {
-    
-        padding: 20px;
-        margin: 10px 0;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    .capa {
+        width: 50%; /* Por padrão, para telas grandes */
+        height: auto;
     }
 
-    .opcoes > a > img{
-        border-radius: 30px;
-      width: 100%;
-        
-        
-        
+    /* Para tablets (largura entre 600px e 1024px) */
+    @media (max-width: 1024px) {
+        .capa {
+            width: 65%;
+        }
+    }
 
+    /* Para smartphones (largura até 600px) */
+    @media (max-width: 600px) {
+        .capa {
+            width: 80%;
+        }
     }
-    .link-card h2 {
-        margin-top: 0;
-    }
-    a {
-        text-decoration: none;
-        color: #3498db;
-    }
-    .section-title {
-        margin: 20px 0;
-        font-size: 24px;
-        font-weight: bold;
-        text-align: center;
-    }
-  
-}
