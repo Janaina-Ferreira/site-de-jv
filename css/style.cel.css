@@ -1,18 +1,21 @@
 @charset "UTF-8";
 
+
+    body {
+        overflow-x: hidden;
+      }
+
+
 .capa{
+   
     width: 90%;
 }
 
-.container {
-    max-width: 1200px;
-    margin: auto;
-    padding: 20px;
-   
-}
+
 
 .container{
     text-align: center;
+   width:73%;
    
 }
 
@@ -44,8 +47,9 @@
     text-decoration: none;
     color: rgb(92, 9, 170);
   }
+
  footer{
-    padding: 50px;
+    padding-top: 50px;
    text-align: center;
     background-color: #A982B9;
    
