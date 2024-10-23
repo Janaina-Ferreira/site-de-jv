@@ -1,11 +1,11 @@
-@charset "UTF-8";
 
-@media screen and (max-width: 750px) {
 
-    body {
-       
-       background-size: auto;
-       
-       
+
+@media screen and (min-width: 750px) {
+ 
+    header > .capa{
+        width: 80%;
     }
+    
+  
 }
