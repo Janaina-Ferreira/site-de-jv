@@ -11,23 +11,21 @@
    
 }
 
-.link-card {
-    
-    padding: 20px;
-    margin: 10px 0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.container{
+    text-align: center;
+   
 }
+
 
 .opcoes{
-    pad: 0PX;
+    padding: 20px;
 }
 
-
 .opcoes > a > img{
+   
     width: 100%;
     border-radius: 20px;
     padding: 10px;
-    margin: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.205);
     
     
