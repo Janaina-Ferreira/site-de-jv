@@ -2,7 +2,7 @@
 @charset "UTF-8";
 
     .capa {
-        width: 50%; /* Por padrão, para telas grandes */
+        width: 40%; /* Por padrão, para telas grandes */
         height: auto;
     }
 
