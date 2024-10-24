@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+}
+
+.capa-extra{
+    width: 100%;
+}
+
+a:hover{
+    color: #DA3280;
+  }
+  
+  a{
+    text-decoration: none;
+    color: #7D2E6D;
+  }
+
+a{
+    text-decoration: none;
+    color: rgb(92, 9, 170);
+  }
+
+ footer{
+    padding-top: 50px;
+   text-align: center;
+    background-color: #A982B9;
+    padding-bottom: 50px;
+   
+ }
