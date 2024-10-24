@@ -18,7 +18,7 @@
 
 .container{
     text-align: center;
-   width:73%;
+    width: 100%;
    
 }
 
@@ -44,6 +44,8 @@
   
   .fotos:hover {
     transform: scale(1.05);
+    background-color: #661a85;
+    
   }
 
   a{
