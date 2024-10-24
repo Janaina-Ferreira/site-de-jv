@@ -8,9 +8,12 @@
 
 .capa{
    
-    width: 97%;
+    width: 100%;
 }
-
+ 
+#sobre{
+  margin-top: -30%;
+}
 
 
 .container{
