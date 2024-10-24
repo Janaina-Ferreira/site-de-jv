@@ -2,7 +2,8 @@
 
 
     body {
-        overflow-x: hidden;
+      overflow-x: hidden;
+      margin: 0;
       }
 
 
@@ -28,7 +29,7 @@
 }
 
 .opcoes > a > img{
-   
+  text-align: center;
     width: 100%;
     border-radius: 20px;
     padding: 1px;
@@ -44,7 +45,7 @@
   
   .fotos:hover {
     transform: scale(1.05);
-    background-color: #000000;
+    background-color: #8B2F72;
     cursor: pointer;
     
   }
