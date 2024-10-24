@@ -8,6 +8,42 @@ body{
     width: 100%;
 }
 
+
+
+section> .videos{
+    min-width: 300px;
+max-width: 1000px;
+
+margin: auto;
+margin-bottom: 30px;
+padding: 20px;
+background-color: rgba(255, 255, 255, 0.555);
+box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.438);
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+
+}
+
+.video{
+    
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+     }
+  
+    .video>iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+  }
+
+
+
+
+
 a:hover{
     color: #DA3280;
   }
