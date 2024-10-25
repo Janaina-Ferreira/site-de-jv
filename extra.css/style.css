@@ -8,7 +8,12 @@ body{
     width: 100%;
 }
 
-
+p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 
 section> .videos{
     min-width: 300px;
