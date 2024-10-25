@@ -22,20 +22,21 @@ p{
 
 .botao {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-color: #9b4caf; /* cor de fundo */
+  background-color: #441534; /* cor de fundo */
   color: #ffffff; /* cor do texto */
-  border: 2px solid #c50986; /* borda */
+  border: 0.2px solid #0c060a; /* borda */
   padding: 10px 20px; 
   font-size: 20px;
-  border-radius: 10px; /* tamanho da fonte */
+  border-radius: 30px; /* tamanho da fonte */
   cursor: pointer; /* cursor */
   transition: 0.5s; /* efeito de transição */
 }
 
 .botao:hover {
-  background-color: #c50986;
-  color: #ffffff;
-  border: 1px solid #9b4caf; /* cor de fundo ao passar o mouse */
+  background-color: #f5f5f5;
+  color: #441534;
+  border: 1px solid #441534; 
+  font-weight: bolder;
 }
 
 section> .videos{
