@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 body{
+  
     margin: 0;
 }
 
@@ -13,6 +14,28 @@ p{
   margin: 15px;
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.botoes{
+  text-align: center;
+}
+
+.botao {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #9b4caf; /* cor de fundo */
+  color: #ffffff; /* cor do texto */
+  border: 2px solid #c50986; /* borda */
+  padding: 10px 20px; 
+  font-size: 20px;
+  border-radius: 10px; /* tamanho da fonte */
+  cursor: pointer; /* cursor */
+  transition: 0.5s; /* efeito de transição */
+}
+
+.botao:hover {
+  background-color: #c50986;
+  color: #ffffff;
+  border: 1px solid #9b4caf; /* cor de fundo ao passar o mouse */
 }
 
 section> .videos{
