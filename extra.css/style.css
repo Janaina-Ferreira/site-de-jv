@@ -8,7 +8,9 @@ body{
 .capa-extra{
     width: 100%;
 }
-
+section >.texto{
+  backgrond-color: #A982B9;
+}
 p{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 15px;
