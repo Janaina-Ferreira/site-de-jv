@@ -5,21 +5,29 @@ body{
     margin: 0;
 }
 
+header{
+  
+}
+
 .capa-extra{
     width: 100%;
 }
-section > .texto{
-  backgrond-color: #A982B9;
+.texto{
+  margin-top: 0px;
+  background-color: #A982B9;
 }
+
 p{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 15px;
+  margin-top: 0px;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
 .botoes{
   text-align: center;
+  
 }
 
 .botao {
@@ -32,6 +40,7 @@ p{
   border-radius: 30px; /* tamanho da fonte */
   cursor: pointer; /* cursor */
   transition: 0.5s; /* efeito de transição */
+
 }
 
 .botao:hover {
